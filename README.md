@@ -4,16 +4,16 @@
 
 On Mac, create a project virtual environment in the .venv folder.
 
-'''shell
+```shell
 python3 -m venv .venv
 .venv/scripts/activate
 python3 -m pip install -r requirements.txt
-'''
+```
 
 ## Git add and commit
 
-'''shell
+```shell
 git add
 git commit -m "add .gitignore"
 git push origin main
-'''
+```
